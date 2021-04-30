@@ -46,11 +46,15 @@
                    </goals>
                </execution>
                <execution>
-                   <id>npm install</id>
-                   <goals>
-                       <goal>npm</goal>
-                   </goals>
-               </execution>
+                 <id>npm install</id>
+                 <phase>generate-resources</phase>
+                 <goals>
+                 <goal>npm</goal>
+                 </goals>
+                 <configuration>
+                      <arguments>install</arguments>
+                 </configuration>
+                 </execution>
            </executions>
        </plugin>
         <plugin>
