@@ -44,11 +44,7 @@
                    <goals>
                        <goal>install-node-and-npm</goal>
                    </goals>
-               <configuration>
-                    <nodeVersion>v16.00.0</nodeVersion>
-                    <npmVersion>7.10.0</npmVersion>
-               </configuration>
-            </execution>
+               </execution>
                <execution>
                  <id>npm install</id>
                  <phase>generate-resources</phase>
@@ -56,7 +52,7 @@
                  <goal>npm</goal>
                  </goals>
                  <configuration>
-                 <arguments>install</arguments>
+                      <arguments>install</arguments>
                  </configuration>
                  </execution>
            </executions>
