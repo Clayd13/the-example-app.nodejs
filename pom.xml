@@ -17,13 +17,11 @@
       <id>nexus-releases</id>
       <url>http://172.32.2.108:8081/repository/nex-maven-local-releases/</url>
     </repository>
-    <repositories>
-    <repository>
+      <repository>
       <id>nex-maven-remote</id>
       <url>http://172.32.2.108:8081/repository/nex-maven-remote/</url>
     </repository>
-  </repositories>
-  </distributionManagement> 
+    </distributionManagement> 
     <dependencies>
     <dependency>
       <groupId>junit</groupId>
