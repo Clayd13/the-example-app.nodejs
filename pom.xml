@@ -94,5 +94,21 @@
         </executions>
       </plugin>
     </plugins>
+     <repositories>
+    <repository>
+      <id>maven-group</id>
+      <url>http://172.32.2.108:8081/repository/nex-maven-group/</url>
+    </repository>
+  </repositories>
+     <distributionManagement>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://172.32.2.108:8081/repository/nex-maven-local-snap/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://172.32.2.108:8081/repository/nex-maven-local-releases/</url>
+    </repository>
+  </distributionManagement>
   </build>
 </project>
