@@ -10,8 +10,8 @@
   <url>http://maven.apache.org</url>
   <repositories>
     <repository>
-      <id>maven-group</id>
-      <url>http://172.32.2.108:8081/repository/nex-maven-group/</url>
+      <id>nex-maven-remote</id>
+      <url>http://172.32.2.108:8081/repository/nex-maven-remote/</url>
     </repository>
   </repositories>
      <distributionManagement>
