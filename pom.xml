@@ -13,15 +13,17 @@
       <id>nexus-snapshots</id>
       <url>http://172.32.2.108:8081/repository/nex-maven-local-snap/</url>
     </snapshotRepository>
-    <repository>
+    </distributionManagement>
+    <repositories>  
+  <repository>
       <id>nexus-releases</id>
       <url>http://172.32.2.108:8081/repository/nex-maven-local-releases/</url>
     </repository>
       <repository>
       <id>nex-maven-remote</id>
       <url>http://172.32.2.108:8081/repository/nex-maven-remote/</url>
-    </repository>
-    </distributionManagement> 
+  </repository>
+     </repositories>
     <dependencies>
     <dependency>
       <groupId>junit</groupId>
