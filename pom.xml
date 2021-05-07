@@ -21,7 +21,7 @@
     </repository>
       <repository>
       <id>nex-maven-remote</id>
-      <url>http://172.32.2.108:8081/repository/nex-maven-remote/</url>
+      <url>http://172.32.2.108:8081/repository/nex-maven-remote-group/</url>
   </repository>
      </repositories>
     <dependencies>
